@@ -177,7 +177,7 @@ font-size:22px;
   
 
 .cach1 span:nth-child(4) {
-	font-size: 1em;
+	font-size: 0.7em;
 	margin: 20px 10px 0 6px;
 	color: #911e44;
 	background-color: rgba(255,249,251,0.6);
@@ -716,6 +716,7 @@ footer img{
   height: 80px;
   object-fit: contain;
 }
+
 @media (min-width:598px){
   .link{
     max-width: 400px;
@@ -724,6 +725,13 @@ footer img{
     right: 0;
   }
 }
+
+@media(max-width:1150px){
+	.cach1{
+		font-size: 1.8rem;
+	}
+}
+
 @media(max-width:1024px){
 	.inner{
 		    padding: 0 5%;
@@ -731,10 +739,6 @@ footer img{
 	.section-top .cach{
 		left:65%;
 		}
-	.cach1{
-		font-size: 1.8rem;
-		
-	}
 	.cach2{
 		left: -76px;
     bottom: -150px;
