@@ -726,7 +726,7 @@ footer img{
   }
 }
 
-@media(max-width:1150px){
+@media(max-width:1215px){
 	.cach1{
 		font-size: 1.8rem;
 	}
@@ -754,6 +754,13 @@ footer img{
 	}
 	
 }
+
+@media(max-width:855px){
+.cach1{
+	font-size: 1.2rem;
+}
+}
+
 @media(max-width:599px){
 	
 section {
