@@ -179,12 +179,17 @@ font-size:22px;
 .cach1 span:nth-child(4) {
 	font-size: 0.7em;
 	margin: 20px 10px 0 6px;
-	color: #911e44;
-	background-color: rgba(255,249,251,0.6);
+		color: #d54071;
+		font-weight: bold;
+		text-shadow: 1px 1px 0px #FFF, -1px 1px 0px #FFF, 1px -1px 0px #FFF, -1px -1px 0px #FFF;
+		background-color: rgba(255,249,251,0.6);
 	padding: 20px;
 	border-radius: 8px;
+
+	/* color: #911e44;
+
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-	animation: bounce-in 0.8s ease; 
+	animation: bounce-in 0.8s ease;  */
   }
   
 @keyframes catch_anime {
